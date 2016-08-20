@@ -1,0 +1,20 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_action_Layout"
+    android:focusableInTouchMode="false"
+    android:background="@color/general_background"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:id="@+id/asksend"
+        android:singleLine="false"
+        android:onClick="asksend"
+        android:textAppearance="?android:attr/textAppearanceLarge"/>
+
+</LinearLayout>

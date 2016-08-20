@@ -1,0 +1,46 @@
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ask_multiple_Layout"
+    android:focusableInTouchMode="false"
+    android:background="@color/general_background"
+    android:screenOrientation="portrait">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/askView"
+        android:layout_gravity="center"
+        android:text="@string/empty"
+        android:singleLine="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        style="@style/title_triple" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/askMultiple"
+        android:focusableInTouchMode="false"
+        android:textAppearance="?android:attr/textAppearanceLarge"></LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/askCfLayout"
+        android:textAppearance="?android:attr/textAppearanceLarge">
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/askCf"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+
+</LinearLayout>

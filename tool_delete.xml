@@ -1,0 +1,33 @@
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/tool_delete_Layout"
+    android:focusableInTouchMode="false"
+    android:background="@color/general_background"
+    android:screenOrientation="portrait">
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:text="@string/inicio"
+        android:id="@+id/askback"
+        android:layout_weight="2"
+        android:singleLine="false"
+        android:onClick="askback"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_gravity="center" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/change"
+        android:id="@+id/toolDelete"
+        android:layout_weight="2"
+        android:singleLine="false"
+        android:onClick="deleteAnswer"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_gravity="center" />
+
+</LinearLayout>
