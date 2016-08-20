@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="title_single">
+        <item name="android:height">65dp</item>
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_double">
+        <item name="android:height">90dp</item>
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="title_triple">
+        <item name="android:height">180dp</item>
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="button_action">
+        <item name="android:height">90dp</item>
+        <item name="android:textColor">@color/general_text</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

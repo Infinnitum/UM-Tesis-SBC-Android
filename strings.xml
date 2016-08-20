@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tesis SBC</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="kbase">Base de Conocimiento</string>
+    <string name="update">Actualizar Bases</string>
+    <string name="start">Comenzar</string>
+    <string name="back">Atras</string>
+    <string name="empty">Vacio</string>
+    <string name="send">Enviar</string>
+    <string name="yes">Sí</string>
+    <string name="no">No</string>
+    <string name="cf">CF</string>
+    <string name="inicio">Inicio</string>
+    <string name="confirm">Confirmar</string>
+    <string name="change">Borrar respuesta anterior</string>
+    <string name="title_activity_update">UpdateActivity</string>
+    <string name="url_repo">URL Repositorio central</string>
+    <string name="load">Cargar</string>
+    <string name="tesis_update.php">http://192.168.1.50/tesis/tesis_update.php</string>
+    <string name="tesis_update_PROD.php">http://infinnitum.dyndns.pro:88/tesis/tesis_update.php</string>
+    <string name="tesis_checknew_PROD.php">http://infinnitum.dyndns.pro:88/tesis/tesis_checknew.php</string>
+    <string name="menuLayoutTitle">Seleccione una opción</string>
+    <string name="kbLayoutTitle">Seleccione una Base de Conocimiento</string>
+    <string name="delete">Borrar</string>
+    <string name="search">Más información</string>
+    <string name="trazabilidad">Trazabilidad</string>
+</resources>
